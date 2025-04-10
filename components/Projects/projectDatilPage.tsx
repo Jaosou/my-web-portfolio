@@ -22,7 +22,7 @@ export interface ProjectDetail {
 
 const ProjectDatailPage = () => {
 
-    const data = projectDetail;
+    const data : ProjectDetail[] = projectDetail;
 
     return (
         <div className="containnerDetailProject">
