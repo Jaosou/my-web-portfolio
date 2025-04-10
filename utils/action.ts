@@ -30,23 +30,15 @@ const validateInput = (schema: any, data: any) => {
 export const InputContactToMe = async (prevState: any, formData: FormData) => {
 
     try {
-        const nameInput = formData.get('name')
-        const emailInput = formData.get('email')
-        const descInput = formData.get('desc')
+        const nameInput = formData.get('name') as string
+        const emailInput = formData.get('email') as string
+        const descInput = formData.get('desc') as string
         
         const validateField = validateInput(inputText, {
             name: nameInput,
             email: emailInput,
             desc: descInput,
         })
-        console.log(validateField)
-        // console.log(validateField.name)
-        // console.log(validateField.email)
-        // console.log(validateField.desc)
-
-        // console.log(desc)
-        // console.log(lastName)
-        // console.log(fristName)
 
         if (validateField) {
             await db.contactData.create({
