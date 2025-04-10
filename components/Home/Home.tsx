@@ -47,7 +47,7 @@ const HomePage = () => {
                                         <p className='text-animation'><span className='font-bold'></span></p>
                                     </div>
                                     <div className=' textFormat'>
-                                        <p>This portfolio serves as a     platform to showcase my technical abilities and projects. I'm   actively seeking
+                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portfolio serves as a     platform to showcase my technical abilities and projects. I&apos;m   actively seeking
                                             an internship where I can apply my skills, especially in database management. My experience includes
                                             database connectivity, API development, and a strong passion for backend development.</p>
                                     </div>
@@ -100,7 +100,7 @@ const HomePage = () => {
                     } />
 
                     <div className='cardHomeBR'>
-                        A place to talk about yourself. I think everyone wants to have a good life, and so do I. That's why I'm always improving myself in terms of my knowledge. But there are times when I take a break. Everything I've learned or what I want to present, I've put it on this website and my intention.
+                        A place to talk about yourself. I think everyone wants to have a good life, and so do I. That&apos;s why I&apos;m always improving myself in terms of my knowledge. But there are times when I take a break. Everything I&apos;ve learned or what I want to present, I&apos;ve put it on this website and my intention.
                         {/* A space to talk about myself. I like mathematics and play basketball very much. In my free time, I like to find new knowledge, sleep, play games. I want to get better and better. When I'm tired, I take a break to live my life. I rest because people complain that I like to pressure or work hard. I just want to have a good life in the future. */}
                     </div>
                 </div>
