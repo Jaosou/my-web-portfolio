@@ -1,11 +1,11 @@
-import { ratelimit } from '@/utils/limiter'
+import { rateLimiterV } from '@/utils/limiter'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function middleware(req: NextRequest) {
     console.log("Have req");
     const ip = req.headers.get('x-forwarded-for') || '127.0.0.1';
 
-    const { success, limit, reset, remaining } = await ratelimit.limit(ip)
+    const { success, limit, reset, remaining } = await rateLimiterV.limit(ip)
     if (!success) {
         return NextResponse.json("Rate Limited", { status: 429 })
     }
