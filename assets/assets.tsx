@@ -2,10 +2,6 @@ import bas1 from "./Bas/DSC_4195.jpg";
 import bas2 from "./Bas/DSC_8211.jpg";
 import mySelf from "./Myself/Myself.png";
 import r2m from "./R2M/picGroup.jpg";
-import setien1 from "./sport/setien/_DSC1532.jpg";
-import setien2 from "./sport/Setien/_DSC1535.jpg";
-import univers1 from "./sport/50/FB_IMG_1730725045181.jpg";
-import univers2 from "./sport/50/FB_IMG_1730725047117.jpg";
 import ta1 from "./TA/DSC07518.jpg";
 import ta2 from "./TA/DSC07967.jpg";
 import teaching1 from "./teaching_ac11/1E0A0325.jpg";
@@ -46,10 +42,6 @@ export const assets = {
     bas2,
     mySelf,
     r2m,
-    setien1,
-    setien2,
-    univers1,
-    univers2,
     ta1,
     ta2,
     teaching1,
