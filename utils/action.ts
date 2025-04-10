@@ -30,14 +30,14 @@ const validateInput = (schema: any, data: any) => {
 export const InputContactToMe = async (prevState: any, formData: FormData) => {
 
     try {
-        const name = formData.get('name')
-        const email = formData.get('email')
-        const desc = formData.get('desc')
+        const nameInput = formData.get('name')
+        const emailInput = formData.get('email')
+        const descInput = formData.get('desc')
         
         const validateField = validateInput(inputText, {
-            name: name,
-            email: email,
-            desc: desc,
+            name: nameInput,
+            email: emailInput,
+            desc: descInput,
         })
         console.log(validateField)
         // console.log(validateField.name)
@@ -51,9 +51,9 @@ export const InputContactToMe = async (prevState: any, formData: FormData) => {
         if (validateField) {
             await db.contactData.create({
                 data: {
-                    name: name,
-                    email: email,
-                    desc: desc,
+                    name: nameInput,
+                    email: emailInput,
+                    desc: descInput,
                 }
             })
         }
