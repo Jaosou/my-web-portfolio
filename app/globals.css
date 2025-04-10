@@ -188,7 +188,7 @@ html {
 }
 
 .textLogo{
-  @apply text-[2.75rem] font-mono font-semibold bg-gradient-to-r from-(--foreground) to-(--background/20) bg-clip-text text-transparent
+  @apply text-[2.75rem] font-mono font-semibold text-white
 }
 
 .contentContainner {
