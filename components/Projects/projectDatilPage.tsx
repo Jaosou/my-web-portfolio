@@ -11,7 +11,7 @@ import { GrFormNextLink } from "react-icons/gr";
     'Title' : 'Hello'
 } */
 
-export interface ProjectDetail {
+export interface ProjectDetailType {
     Title: string;
     Image: StaticImageData;
     Desc: string;
@@ -22,7 +22,7 @@ export interface ProjectDetail {
 
 const ProjectDatailPage = () => {
 
-    const data : ProjectDetail[] = projectDetail;
+    const data : ProjectDetailType[] = projectDetail;
 
     return (
         <div className="containnerDetailProject">
