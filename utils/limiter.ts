@@ -36,8 +36,8 @@ export const rateLimiterV = new Ratelimit({
 }  */
 
 const rateLimiter = new RateLimiterMemory({
-    points: 3,      // 3 requests
-    duration: 60,   // per 60 seconds
+    points: 4,      // 3 requests
+    duration: 15*60,   // per 60 seconds
 })
 
 export async function ratelimitValidate(ip: string) {
