@@ -31,12 +31,11 @@ const validateInput = (schema: any, data: any) => {
 export const InputContactToMe = async (prevState: any, formData: FormData) => {
 
     const headerList = headers()
-    const ip = (await headerList).get('x-forwarded-for') || '127.0.0.1'
+    const ip = (await headerList).get('x-forwarded-for')?.split(',')[0]?.trim() || '127.0.0.1'
 
     try {
 
-        const result = await ratelimitValidate(ip)
-        console.log("result",result);
+        await ratelimitValidate(ip)
 
         const nameInput = formData.get('name') as string
         const emailInput = formData.get('email') as string
