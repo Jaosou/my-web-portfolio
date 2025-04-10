@@ -23,7 +23,7 @@ export function DarkMode() {
         }
     } ,[theme])
     
-    const hdleOnClick: any = async () =>{
+    const hdleOnClick = async () =>{
         await delay(0);
         setThemeB(!theme)
         if(theme){

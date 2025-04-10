@@ -3,7 +3,6 @@
 import { projectDetail } from "@/assets/assets"
 import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
-import { type } from "os"
 import { FaGithub } from "react-icons/fa"
 import { GrFormNextLink } from "react-icons/gr";
 

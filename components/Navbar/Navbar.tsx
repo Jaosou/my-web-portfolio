@@ -4,14 +4,11 @@ import { assets } from "@/assets/assets";
 import Link from "next/link";
 import Image from "next/image";
 import { DarkMode } from "./DarkMode";
-import { Button } from "../ui/button";
-import { useTheme } from "next-themes";
 import Menubar from "./Menubar";
-import { use, useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
 
-    const themeOb = useTheme()
     const [isClick, setIsClick] = useState(false)
 
     return (

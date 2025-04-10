@@ -1,6 +1,5 @@
 import { Label } from "../ui/label"
 import { Input } from "../ui/input"
-import { types } from "util"
 
 type FormInputProps = {
     name: string
