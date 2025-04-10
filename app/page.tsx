@@ -1,7 +1,7 @@
 import About from "@/components/About/About";
 import HomePage from "@/components/Home/Home";
 import ProjectShow from "@/components/Projects/ProjectShow";
-import Page from "./contact/page";
+import ConatctPage from "@/components/Contact/ConatctPage";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
           <ProjectShow />
         </div>
         <div id="Contact">
-          <Page />
+          <ConatctPage />
         </div>
       </div>
     </div>
