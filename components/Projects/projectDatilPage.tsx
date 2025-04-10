@@ -12,12 +12,12 @@ import { GrFormNextLink } from "react-icons/gr";
 } */
 
 export interface ProjectDetail {
-    Title: String;
+    Title: string;
     Image: StaticImageData;
-    Desc: String;
-    Time: String;
-    Link: String;
-    Position: String;
+    Desc: string;
+    Time: string;
+    Link: string;
+    Position: string;
 }
 
 const ProjectDatailPage = () => {
