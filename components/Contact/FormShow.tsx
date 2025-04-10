@@ -1,9 +1,6 @@
 import { SummitButton } from '../Form/Button'
 import FormContainner from '../Form/FormContainner'
 import FormInput from '../Form/formInput'
-import { Button } from '../ui/button'
-import { Input } from '../ui/input'
-import { Label } from '../ui/label'
 import { InputContactToMe } from '@/utils/action'
 import { Textarea } from '../ui/textarea'
 
