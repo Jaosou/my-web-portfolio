@@ -16,7 +16,11 @@ const FormContainner = ({ action, children }
     const [state, formAction] = useActionState(action, initialState);
 
     useEffect(() => {
-        if (state.message.length <= 21) {
+        
+        if (state.message.length <= 12) {
+            console.log("State : ", state)
+            toast.error(state.message);
+        }else if (state.message.length <=21) {
             console.log("State : ", state)
             toast.success(state.message);
         } else {

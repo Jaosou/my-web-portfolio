@@ -21,7 +21,7 @@ const FormShow = () => {
 
                     <FormInput name="email"
                         label="Email"
-                        type="text"
+                        type="email"
                         placeholder='Email'
                         defaultValue=''
                         className='h-16' />

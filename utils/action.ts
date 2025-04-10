@@ -1,8 +1,9 @@
 "use server";
 
-import { error } from 'console';
+import { headers } from 'next/headers';
 import db from './db'
 import { z } from 'zod'
+import { ratelimitValidate } from './limiter';
 
 const inputText = z.object({
     name: z.string().min(2, {
@@ -29,7 +30,14 @@ const validateInput = (schema: any, data: any) => {
 
 export const InputContactToMe = async (prevState: any, formData: FormData) => {
 
+    const headerList = headers()
+    const ip = (await headerList).get('x-forwarded-for') || '127.0.0.1'
+
     try {
+
+        const result = await ratelimitValidate(ip)
+        console.log("result",result);
+
         const nameInput = formData.get('name') as string
         const emailInput = formData.get('email') as string
         const descInput = formData.get('desc') as string
