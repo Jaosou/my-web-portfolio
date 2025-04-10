@@ -188,7 +188,7 @@ html {
 }
 
 .textLogo{
-  @apply text-[2.75rem] font-mono font-semibold text-white
+  @apply text-[2.75rem] font-mono font-semibold text-(--foreground)
 }
 
 .contentContainner {
