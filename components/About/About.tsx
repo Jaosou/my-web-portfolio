@@ -33,7 +33,7 @@ const About = () => {
                                     <SwiperBar>
                                         {
                                             skill.map((item, index) =>
-                                                <SwiperSlide>
+                                                <SwiperSlide key={index}>
                                                     <Link href="">
                                                         <div className='containnerLogoSkill'>
                                                             <Image className="logoSkill" src={item.logo} alt="" />
