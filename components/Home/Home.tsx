@@ -47,7 +47,7 @@ const HomePage = () => {
                                         <p className='text-animation'><span className='font-bold'></span></p>
                                     </div>
                                     <div className=' textFormat'>
-                                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portfolio serves as a     platform to showcase my technical abilities and projects. I'm   actively seeking
+                                        <p>This portfolio serves as a     platform to showcase my technical abilities and projects. I'm   actively seeking
                                             an internship where I can apply my skills, especially in database management. My experience includes
                                             database connectivity, API development, and a strong passion for backend development.</p>
                                     </div>
