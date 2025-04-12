@@ -45,11 +45,11 @@ const ProjectDatailPage = () => {
                                         className="rounded-lg" />
                                     : <div className="w-[20rem] h-[20rem] bg-black/20 flex justify-center items-center rounded-xl text-2xl">No Image</div>
                             }
-                            <div className="w-full text-lg font-bold px-2 pt-3 overflow-hidden">
+                            <div className="w-full text-lg font-bold px-2 pt-3 overflow-clip">
                                 Title: {item.Title} ({item.Time})
                             </div>
 
-                            <div className="w-full px-2 py-2 h-[40%] overflow-hidden  ">
+                            <div className="w-full px-2 py-2 ">
                                 &nbsp;&nbsp;{item.Desc}
                             </div>
 
@@ -67,8 +67,8 @@ const ProjectDatailPage = () => {
                                                 <h2 className="text-lg text-center">Web</h2>
                                             </div>
                                             : <div className="w-full flex items-center justify-center">
-                                                <FaGithub className='text-3xl mr-2 logoGit' />
-                                                <h1 className="text-lg textDes">Go Git</h1>
+                                                <FaGithub className='gotoGitLogo mr-2' />
+                                                <h1 className="gotoGit">Go Git</h1>
                                             </div>
                                     }
 

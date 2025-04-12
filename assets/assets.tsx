@@ -104,7 +104,7 @@ export const projectType = [
     {
         'title': 'FrontEnd (React,Next,Tailwind)',
         'Image': front,
-        'Desc': "You can design web pages using Frame work such as React, Tailwind, Bootstrap. I have created a mockup of an SME web page which has a Routing section to connect different pages together. There is a clear separation of access rights and a back-end connection.",
+        'Desc': "You can design web pages using Frame work such as React, Tailwind, Bootstrap. I have created a mockup of an SME web page which has a Routing section to connect different pages together.",
     },
     {
         'title': 'Hardware (Arduino Project, Esp8266)',
