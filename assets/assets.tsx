@@ -146,7 +146,7 @@ export const projectDetail = [
         'Desc': 'The Driver Drowsiness Detection system is an AI-powered solution designed to enhance road safety by identifying signs of driver fatigue in real time. Utilizing computer vision and machine learning, the system analyzes facial features, eye movements, and head position to detect early signs of drowsiness. Upon detection, it triggers alerts such as sound alarms or vibrations to warn the driver, preventing potential accidents. This technology is ideal for long-haul truck drivers, public transportation operators, and personal vehicle users, significantly reducing the risk of fatigue-related crashes.',
         'Time': '2024',
         'Link': 'https://github.com/Jaosou/Eye-detection-project.git',
-        'Position': 'Hello',
+        'Position': 'Programmer',
     },
     {   // Todo : Frontend
         'Title': 'Front End and Framework(React,Next,Tailwind)',
@@ -154,7 +154,7 @@ export const projectDetail = [
         'Desc': 'I learned it myself from YouTube. The Framework used is React Next Tailwind for designing the website page. I called the API from the SERVER side using JSX to call it. I used Motion.js to help with the animation to make it smoother.',
         'Time': '2024',
         'Link': 'https://github.com/Jaosou/Web-Ecom-Front.git',
-        'Position': '',
+        'Position': 'Coding',
     },
     {   // Todo : Arduino robot
         'Title': 'Arduino Line following robot (Esp8266)',
@@ -162,7 +162,7 @@ export const projectDetail = [
         'Desc': 'Using the Esp8266 board as a control unit for a line-following robot with a color detection sensor to ensure that the robot can follow the line and not leave it. This project is part of a course I studied at university.',
         'Time': '2024',
         'Link': 'https://github.com/Jaosou/Robot-follow-line.git',
-        'Position': '',
+        'Position': 'Coding and Hardware',
     },
     {   // Todo : Backend
         'Title': 'Backend RestFul API(Express.js,Node.js)',
@@ -170,7 +170,7 @@ export const projectDetail = [
         'Desc': 'There is a workshop on YouTube using React, connecting to a database using Express.js Node.js, the database is connected to Mysql Wokbench, and the database is created using commands from the Prisma library. During the workshop, there is learning and further development or additional functionality. Various access checks are performed using JWT or bcrypt to endcode passwords to prevent theft.',
         'Time': '2025',
         'Link': 'https://github.com/Jaosou/Web-Ecom-api.git',
-        'Position': '',
+        'Position': 'Codind',
     },
     {   // Todo : GNSS
         'Title': 'GNSS LOW COST',
@@ -178,7 +178,7 @@ export const projectDetail = [
         'Desc': 'We participated in the GNSS LOW COST competition. It was our first time competing, and we placed 22nd out of 72 teams. We used a GPS module to receive satellite signals and programmed our robot to move straight towards a specified target in degrees and minutes. A compass module helped the robot rotate to find the correct direction.',
         'Time': '2025',
         'Link': 'https://github.com/Jaosou/GNSS-LOW-COST-ROBOT.git',
-        'Position': '',
+        'Position': 'Codeing and Design model',
     },
     {   // Todo : "Web Portfolio"
         'Title': 'Website Portfolio',
@@ -186,6 +186,6 @@ export const projectDetail = [
         'Desc': 'This is a website created using only HTML, CSS, and JavaScript, with the Bootstrap library used for styling to enhance its aesthetics. It was my first website project without using any frameworks, showcasing my past work, education, and interests. However, with the emergence of new frameworks, I challenged myself by building the website you are currently viewing using Next.js, which has been a very challenging but rewarding experience.',
         'Time': '2025',
         'Link': 'https://portfolio-aticha.netlify.app/',
-        'Position': '',
+        'Position': 'Everything',
     },
 ]

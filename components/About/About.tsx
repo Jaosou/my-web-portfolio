@@ -25,7 +25,7 @@ const About = () => {
                 <div className="containnerAboutR">
                     <div className="contentAboutR">
                         <span className="text-4xl font-bold">Who am i?</span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet excepturi voluptate. Magni odio sapiente quis consequuntur labore dolores exercitationem dignissimos placeat, accusamus ea nemo, impedit, ipsa cupiditate qui explicabo?
+                        My name is Jaosua. I’m studying at King Mongkut’s University of Technology Thonburi, in the Faculty of Industrial Education and Technology, majoring in Computer Engineering. I enjoy studying computer mathematics, but I don't really like languages—though I’m currently practicing, with the goal of reaching B2 level this year. I love playing basketball and have competed in several tournaments. As Newton’s Third Law states, 'If you want to move forward, you must leave something behind.
                         <div className='barSkill'>
                             <span className="text-2xl font-bold">My Skills :</span>
                             <div className='cardAllSkill'>
