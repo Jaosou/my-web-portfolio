@@ -761,6 +761,9 @@ html {
 }
 
 @media screen and (max-width: 450px) {
+  .logo{
+    @apply w-1/6
+  }
   .navbarContainner{
     @apply w-[100%] h-20
   }
@@ -768,10 +771,10 @@ html {
     @apply w-9/10 flex justify-center items-center
   }
   .textLogo{
-    @apply text-xl
+    @apply text-xl font-bold
   }
   .logoImage{
-    @apply w-8 h-8 mr-1
+    @apply w-10 h-10 mr-1
   }
   .buttonHome{
     @apply h-12 p-4
