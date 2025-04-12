@@ -12,7 +12,7 @@ const HomePage = () => {
     const themeOb = useTheme()
 
     return (
-        <div className='font-mono w-full flex flex-col justify-center '>
+        <div className='font-mono w-full flex flex-col justify-center'>
             {/* Lamp top */}
             <div className={
                 themeOb.theme == 'dark'

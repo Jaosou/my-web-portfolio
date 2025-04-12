@@ -42,7 +42,7 @@ const ProjectShow = () => {
                             ? "projectOddNumber"
                             : "projectEvenNumber"
                     }>
-                        <div className='cardProjectBG'>
+                        <div className='cardProjectBG overflow-clip'>
                             <div className="w-full">
                                 <div className="w-full flex justify-center">
                                     <Image src={project.Image}

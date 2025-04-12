@@ -458,7 +458,7 @@ html {
 }
 
 .cardProjectBG {
-  @apply w-[80%] mt-8 p-2 rounded-2xl flex justify-between mx-4 flex-col bg-(--foreground)/10 backdrop-blur-lg hover:scale-105 duration-300 border-2 border-(--foreground)/20 h-[35rem]
+  @apply w-[80%] mt-8 p-2 rounded-2xl flex justify-between flex-col bg-(--foreground)/10 backdrop-blur-lg hover:scale-105 duration-300 border-2 border-(--foreground)/20 h-[35rem]
 }
 
 .textFormat {
@@ -610,7 +610,7 @@ html {
 
 @media screen and (max-width: 1024px) {
   .homeContainner {
-    @apply flex flex-col justify-center pt-48 pb-24 pl-0 mx-10
+    @apply flex flex-col justify-center pt-48 pb-24 pl-0 pr-20 mx-10
   }
 
   .logoImage {
@@ -659,8 +659,12 @@ html {
     @apply h-16 w-16
   }
 
+  .gridAboutPage{
+    @apply pt-20
+  }
+
   .boderShadowImage{
-    @apply w-[30rem] h-[40rem]
+    @apply w-[21rem] h-[28rem]
   }
 
   .contentAboutR{
@@ -699,6 +703,9 @@ html {
   }
   .containnerDetailProject{
     @apply px-20
+  }
+  .bgContactCard{
+    @apply w-3/4  
   }
 }
 
@@ -748,6 +755,9 @@ html {
   .bgContactCard{
     @apply w-3/4
   }
+  .cardProjectBG{
+    @apply w-3/4
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -767,7 +777,7 @@ html {
     @apply h-12 p-4
   }
   .text-animation{
-    font-size: 22px
+    font-size: 18px
   }
   .textFormat{
     font-size: 15px;
