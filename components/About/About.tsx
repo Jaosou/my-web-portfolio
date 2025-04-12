@@ -25,7 +25,7 @@ const About = () => {
                 <div className="containnerAboutR">
                     <div className="contentAboutR">
                         <span className="text-4xl font-bold">Who am i?</span>
-                        My name is Jaosua. I&apos;m studying at King Mongkut&apos;s University of Technology Thonburi, in the Faculty of Industrial Education and Technology, majoring in Computer Engineering. I enjoy studying computer mathematics, but I don't really like languages—though I&apos;m currently practicing, with the goal of reaching B2 level this year. I love playing basketball and have competed in several tournaments. As Newton&apos;s Third Law states, 'If you want to move forward, you must leave something behind.
+                        My name is Jaosua. I&apos;m studying at King Mongkut&apos;s University of Technology Thonburi&lsquo; in the Faculty of Industrial Education and Technology&lsquo; majoring in Computer Engineering. I enjoy studying computer mathematics&lsquo; but I don&apos;t really like languages—though I&apos;m currently practicing&lsquo; with the goal of reaching B2 level this year. I love playing basketball and have competed in several tournaments. As Newton&apos;s Third Law states&lsquo; &apos;If you want to move forward&lsquo; you must leave something behind&apos;.
                         <div className='barSkill'>
                             <span className="text-2xl font-bold">My Skills :</span>
                             <div className='cardAllSkill'>
