@@ -541,6 +541,10 @@ html {
   @apply w-[27rem] h-[15rem]
 }
 
+.btnGoToProject{
+  @apply flex items-center h-10 backdrop-blur-lg p-2 rounded-xl hover:scale-110 duration-300 hover:bg-black/30
+}
+
 .gridProject{
   @apply w-full grid grid-cols-2 gap-10 pb-10
 }
@@ -692,6 +696,10 @@ html {
 
   .projectEvenNumber {
     @apply flex justify-center items-center
+  }
+
+  .btnGoToProject{
+    @apply bg-(--foreground)/20
   }
 
   .imageProject{

@@ -61,7 +61,7 @@ const ProjectShow = () => {
                             </div>
 
                             <div className="w-full flex justify-end">
-                                <Link href='/projectDetail' className="flex items-center h-10 backdrop-blur-lg p-2 rounded-xl hover:scale-110 duration-300 hover:bg-black/30">
+                                <Link href='/projectDetail' className="btnGoToProject">
                                     <div className='underlineFormat textFormat'>
                                         View more project.
                                     </div>
