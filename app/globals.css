@@ -711,7 +711,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .homeContainner{
-    @apply pl-0 mx-1.5
+    @apply pl-0 mx-1.5 pr-0
   }
   .containnerCardHomeLeft{
     @apply w-[90%]
@@ -771,7 +771,7 @@ html {
     @apply text-xl
   }
   .logoImage{
-    @apply w-8 h-8
+    @apply w-8 h-8 mr-1
   }
   .buttonHome{
     @apply h-12 p-4
