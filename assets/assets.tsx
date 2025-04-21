@@ -170,7 +170,7 @@ export const projectDetail = [
         'Desc': 'There is a workshop on YouTube using React, connecting to a database using Express.js Node.js, the database is connected to Mysql Wokbench, and the database is created using commands from the Prisma library. During the workshop, there is learning and further development or additional functionality. Various access checks are performed using JWT or bcrypt to endcode passwords to prevent theft.',
         'Time': '2025',
         'Link': 'https://github.com/Jaosou/Web-Ecom-api.git',
-        'Position': 'Codind',
+        'Position': 'Coding',
     },
     {   // Todo : GNSS
         'Title': 'GNSS LOW COST',
@@ -178,7 +178,7 @@ export const projectDetail = [
         'Desc': 'We participated in the GNSS LOW COST competition. It was our first time competing, and we placed 22nd out of 72 teams. We used a GPS module to receive satellite signals and programmed our robot to move straight towards a specified target in degrees and minutes. A compass module helped the robot rotate to find the correct direction.',
         'Time': '2025',
         'Link': 'https://github.com/Jaosou/GNSS-LOW-COST-ROBOT.git',
-        'Position': 'Codeing and Design model',
+        'Position': 'Coding and Design model',
     },
     {   // Todo : "Web Portfolio"
         'Title': 'Website Portfolio',
@@ -186,6 +186,6 @@ export const projectDetail = [
         'Desc': 'This is a website created using only HTML, CSS, and JavaScript, with the Bootstrap library used for styling to enhance its aesthetics. It was my first website project without using any frameworks, showcasing my past work, education, and interests. However, with the emergence of new frameworks, I challenged myself by building the website you are currently viewing using Next.js, which has been a very challenging but rewarding experience.',
         'Time': '2025',
         'Link': 'https://portfolio-aticha.netlify.app/',
-        'Position': 'Everything',
+        'Position': 'Everything in website',
     },
 ]
