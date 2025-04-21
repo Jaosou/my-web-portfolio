@@ -122,7 +122,7 @@ export const projectType = [
 export const httpWeb = [
     {
         'Title': 'Canva',
-        'Website': "https://www.canva.com/design/DAGiRFbEgR0/OtsTpiZR4Bp15azUWYH2kg/view?utm_content=DAGiRFbEgR0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb8a26d1add"
+        'Website': "https://www.canva.com/design/DAGiRFbEgR0/fqxax1IJ9oqnOZWvMHRTCw/view?utm_content=DAGiRFbEgR0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1d8d76a046"
     },
     {
         'Title': 'Github',
